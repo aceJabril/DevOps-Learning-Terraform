@@ -36,7 +36,7 @@ resource "aws_instance" "wordpress" {
   key_name               = var.key_name
   vpc_security_group_ids = [aws_security_group.wordpress_sg.id]
 
-  user_data = file("user_data.sh")
+  user_data = file("scripts/user_data.sh")
 
   tags = {
     Name = "WordPress-Server"
