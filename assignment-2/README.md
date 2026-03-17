@@ -1,4 +1,4 @@
-# Assignment 2 – EC2 Deployment with Cloud-Init
+# Terraform Assignment 2 – EC2 Deployment with Cloud-Init
 
 Just finished CoderCo's 2nd Terraform assignment and it's really helped solidify my understanding of Terraform basics.
 
